@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background: #cea8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 250px;
+  width: 250px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 20px 50px;
+}
+
+.titleContainer {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.titleContainer h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.titleContainer span {
+  color: gray;
+  font-size: 12px;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.loginBtn {
+  padding: 8px 0;
+  background: #6464ee;
+  color: white;
+  border: none;
+}
+
+.bottomText {
+  font-size: 12px;
+  text-align: center;
+}
